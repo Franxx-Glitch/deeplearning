@@ -1,0 +1,31 @@
+﻿# 数据文件 (太大不上传)
+data/*.tar.gz
+data/*.zip
+
+# 已运行的 notebook 输出
+*_executed.ipynb
+
+# 从 notebook 提取的曲线图
+*_executed_cell*_plot.png
+
+# 项目压缩包
+深度学习图像分类识别.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Jupyter
+.jupyter/
+*.ipynb_checkpoints*
+
+# 临时文件
+*.tmp
+*.temp
+_extract_temp/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
